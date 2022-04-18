@@ -46,7 +46,8 @@ jobs:
           git commit -m "${arr[$rand]}"
 
       - name: GitHub Push
-        uses: ad-m/github-push-action@v0.5.0
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          force: true
+          user_name: 'Corry Kalam'
+          user_email: 'corryf0307@gmail.com'
           github_token: ${{ secrets.GITHUB_TOKEN }}
