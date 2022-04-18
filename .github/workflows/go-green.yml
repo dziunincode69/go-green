@@ -49,5 +49,4 @@ jobs:
         uses: ad-m/github-push-action@v0.5.0
         with:
           force: true
-          directory: "/home/runner/work/go-green/go-green"
           github_token: ${{ secrets.GITHUB_TOKEN }}
