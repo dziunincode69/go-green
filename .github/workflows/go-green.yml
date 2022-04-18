@@ -26,7 +26,7 @@ jobs:
         run: |
           git config --local user.email "corryf0307@gmail.com"
           git config --local user.name "Corry Kalam"
-          git config --global --add safe.directory "."
+          git config --global --add safe.directory /github/workspace
           git add -A
 
           arr[0]="feat: 😎 [Go-Green] Feeling good"
